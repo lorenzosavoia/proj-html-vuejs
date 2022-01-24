@@ -24,10 +24,12 @@ export default {
 <style lang="scss">
   @import "~bootstrap/scss/bootstrap";
 #app {
+  min-width: 1600px;
   *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    // min-width: 1600px;
+    // margin: 0;
+    // padding: 0;
+    // box-sizing: border-box;
   }
 }
 </style>
