@@ -64,13 +64,60 @@
                         </div>
                     </div>
                     <!-- header -->
-                    <div class="col-4 box-excellence">
-                        <div>
-                            <div class="icon"><i class="fas fa-network-wired"></i></div>
-                            <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                    <div class="col-12">
+                        <div class="row justify-content-around">
+                            <div class="col-3 box-excellence flex-fill">
+                                <div class="text-center">
+                                    <div class="icon text-center"><i class="fas fa-network-wired"></i></div>
+                                    <div class="icon text-center"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2 class="text-center">Audit & Assurance</h2>
+                                <span class="text-center">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div> 
+                            <div class="col-3 box-excellence flex-fill">
+                                <div>
+                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2>Audit & Assurance</h2>
+                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div> 
+                            <div class="col-3 box-excellence flex-fill">
+                                <div>
+                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2>Audit & Assurance</h2>
+                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div> 
+                            <div class="col-3 box-excellence flex-fill">
+                                <div>
+                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2>Audit & Assurance</h2>
+                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div> 
+                            <div class="col-3 box-excellence flex-fill">
+                                <div>
+                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2>Audit & Assurance</h2>
+                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div> 
+                            <div class="col-3 box-excellence flex-fill">
+                                <div>
+                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
+                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2>Audit & Assurance</h2>
+                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div> 
+                            
                         </div>
-                        <h2>Audit & Assurance</h2>
                     </div>
+                      
                 </div>
             </div>
         </div>
@@ -168,6 +215,12 @@ export default {
     }
     // header
 
+    .box-excellence{
+        background-color: white;
+        padding: 1em;
+        margin: 0.3em;
+        border-radius: 10px;
+    }
 }
 
 // excellence service
