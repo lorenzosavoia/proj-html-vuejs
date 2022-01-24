@@ -47,47 +47,44 @@
                 <!-- navbar -->
             </div>
         </div>
-        <div class="row justify-content-center">
+        <!-- form -->
+        <div class="row justify-content-center jumbo-form">
             <div class="col-8">
                 <div class="row justify-content-end">
                     <div class="col-5">
                         <div class="row">
-                            <div class="col-12">
-                                <div>FUSION & ACQUISTION</div>
+                            <div class="col-12 mb-3">
+                                <div class="fusion-text">FUSION & ACQUISTION</div>
                                 <h1 class="title-form">Insurnce</h1>
                                 <h1 class="title-form">Consulting</h1>
                             </div>
-                            <div class="col-6">
-                                <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label"></label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="mb-3">
-                                    <label for="exampleFormControlInput1" class="form-label"></label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-6">
-                                <div class="mb-3">
-                                    <label for="formGroupExampleInput" class="form-label"></label>
-                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="phone">
-                                </div>
+                            <div class="col-6 d-flex align-items-center">
+                                <input type="text" class="form" id="" placeholder="Name">
                             </div>
                             <div class="col-6 d-flex align-items-center">
-                                <select class="form-select" aria-label="Default select example">
-                                <option selected>More info</option>
-                                <option value="1">Azienda</option>
-                                <option value="2">Libero professionista</option>
-                                <option value="3">Privato</option>
-                            </select>
+                                <input type="email" class="form" id="" placeholder="Email">
+                            </div>
+                            <div class="col-6 d-flex align-items-center mt-2">    
+                                <input type="text" class="form" id="" placeholder="phone">
+                            </div>
+                            <div class="col-6 d-flex align-items-center mt-2">
+                                <select class="select" aria-label="Default select example">
+                                    <option selected>More info</option>
+                                    <option value="1">Azienda</option>
+                                    <option value="2">Libero professionista</option>
+                                    <option value="3">Privato</option>
+                                </select>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <button class="btn btn-primary me-3" type="submit">GET IN TOUCH</button>
+                                <button type="button" class="btn btn-outline-success">Success</button>
                             </div>
                         </div>
                     </div>
                 </div>   
             </div>
         </div>
+        <!-- form -->
     </div>
   </div>
 </template>
@@ -116,18 +113,22 @@ export default {
     }
     .jumbotron{
         background-image: url('~@/assets/bg-6.jpg');
-       height: 700px;
+        height: 700px;
+        .btn-primary{
+            background-color:#058183 ;
+            border-color:#058183; 
+            color: white;
+            display: inline-block;
+        }
+        .btn-outline-success{
+        color:white;
+        background-color: #058183;
+        border-color: #058183;
+        }
 
        .nav-bar{
            height: 40px;
             
-           .btn-primary{
-                       background-color:#058183 ;
-                       border-color:#058183; 
-                       color: white;
-                       display: inline-block;
-                    //    height: 40px;
-                   }
             ul{
                 list-style: none;
                 margin: 0;
@@ -143,6 +144,51 @@ export default {
                     } 
                 }       
             }
+       }
+       .jumbo-form{
+           .form{
+                display: block;
+                width: 100%;
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #939aa3;
+                background-color: #ccd1d4;
+                background-clip: padding-box;
+                border: 1px solid #ccd1d4;
+                appearance: none;
+                border-radius: 0.25rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+           }
+           .select{
+                display: block;
+                width: 100%;
+                padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+                -moz-padding-start: calc(0.75rem - 3px);
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #939aa3;
+                background-color: #ccd1d4;
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+                background-repeat: no-repeat;
+                background-position: right 0.75rem center;
+                background-size: 16px 12px;
+                border: 1px solid #ccd1d4;
+                border-radius: 0.25rem;
+                transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+                appearance: none;
+           }
+           .fusion-text{
+               color:#4abac5;
+               font-weight: 600;
+           }
+           .title-form{
+               color: #21333e;
+               font-size: 4em;
+               font-weight: 800;
+           }
        }
     }
  }
