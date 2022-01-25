@@ -65,55 +65,62 @@
                     </div>
                     <!-- header -->
                     <div class="col-12">
-                        <div class="row justify-content-around">
+                        <div class="row justify-content-between">
+                            <!-- primo box -->
                             <div class="col-3 box-excellence flex-fill">
-                                <div class="text-center">
-                                    <div class="icon text-center"><i class="fas fa-network-wired"></i></div>
-                                    <div class="icon text-center"><i class="fas fa-arrow-right"></i></div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="icon "><i class="fas fa-network-wired"></i></div>
+                                    <div class="icon pointer"><i class="fas fa-arrow-right"></i></div>
                                 </div>
-                                <h2 class="text-center">Audit & Assurance</h2>
-                                <span class="text-center">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                                <h2 class="mb-3 mt-3 title-box">Audit & Assurance</h2>
+                                <span class="text-box">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div>
+                             <!--secondo box  -->
+                            <div class="col-3 box-excellence-mid flex-fill">
+                                <div class="d-flex justify-content-between">
+                                    <div class="icon "><i class="fas fa-briefcase"></i></div>
+                                    <div class="icon pointer"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2 class="mb-3 mt-3 title-box">Financial Advisory</h2>
+                                <span class="text-box">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
                             </div> 
+                            <!-- terzo box -->
                             <div class="col-3 box-excellence flex-fill">
-                                <div>
-                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
-                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="icon "><i class="fas fa-chart-bar"></i></div>
+                                    <div class="icon pointer"><i class="fas fa-arrow-right"></i></div>
                                 </div>
-                                <h2>Audit & Assurance</h2>
-                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
-                            </div> 
+                                <h2 class="mb-3 mt-3 title-box">Analytics and M&A</h2>
+                                <span class="text-box">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div>
+                             <!--quarto box  -->
                             <div class="col-3 box-excellence flex-fill">
-                                <div>
-                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
-                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="icon"><i class="fas fa-plane"></i></div>
+                                    <div class="icon pointer"><i class="fas fa-arrow-right"></i></div>
                                 </div>
-                                <h2>Audit & Assurance</h2>
-                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
-                            </div> 
+                                <h2 class="mb-3 mt-3 title-box">Middle Marketing</h2>
+                                <span class="text-box">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div>
+                             <!--quinto box  -->
+                            <div class="col-3 box-excellence-mid flex-fill">
+                                <div class="d-flex justify-content-between">
+                                    <div class="icon "><i class="fas fa-globe"></i></div>
+                                    <div class="icon pointer"><i class="fas fa-arrow-right"></i></div>
+                                </div>
+                                <h2 class="mb-3 mt-3 title-box">Legal Consulting</h2>
+                                <span class="text-box">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                            </div>
+                             <!--sestobox  -->
                             <div class="col-3 box-excellence flex-fill">
-                                <div>
-                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
-                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="icon "><i class="fas fa-inbox"></i></div>
+                                    <div class="icon pointer"><i class="fas fa-arrow-right"></i></div>
                                 </div>
-                                <h2>Audit & Assurance</h2>
-                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
+                                <h2 class="mb-3 mt-3 title-box">Regulatory Risk</h2>
+                                <span class="text-box">lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
                             </div> 
-                            <div class="col-3 box-excellence flex-fill">
-                                <div>
-                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
-                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
-                                </div>
-                                <h2>Audit & Assurance</h2>
-                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
-                            </div> 
-                            <div class="col-3 box-excellence flex-fill">
-                                <div>
-                                    <div class="icon"><i class="fas fa-network-wired"></i></div>
-                                    <div class="icon"><i class="fas fa-arrow-right"></i></div>
-                                </div>
-                                <h2>Audit & Assurance</h2>
-                                <span>lorem ipsum dolor sit amet consectetur adipiscing elit.</span>
-                            </div> 
+                            
                             
                         </div>
                     </div>
@@ -122,6 +129,16 @@
             </div>
         </div>
         <!-- exellence in service -->
+        <!-- process managment -->
+        <div class="row justify-content-center process-managment align-items-center">
+            <div class="col-6 text-center">
+                <span class="header-green mb-4">OUR BUSINESS AREAS</span>
+                <span class="background me-2">Process</span>
+                <div class="header-title">  Management</div>
+                <div class="text-grey mt-4">We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned</div>
+            </div>
+        </div>
+        <!-- process managment -->
     </div>
   </main>
 </template>
@@ -133,6 +150,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.pointer{
+    cursor: pointer;
+}
 // the company
 .the-company{
     background-color: #111117;
@@ -188,7 +208,9 @@ export default {
 .excellence-service{
     height: 850px;
     background-color: #eef4ed;
+}
     // header
+
     .header-green{
         color: #009f93;
         font-weight: 600;
@@ -214,15 +236,37 @@ export default {
         color: #939aa3;
     }
     // header
-
+    
     .box-excellence{
         background-color: white;
-        padding: 1em;
-        margin: 0.3em;
+        padding: 2em;
+        margin: 1em 0;
         border-radius: 10px;
     }
-}
+    .box-excellence-mid{
+        background-color: white;
+        padding: 2em;
+        margin: 1em 2em;
+        border-radius: 10px;
+    }
+    .icon{
+        font-size: 2em;
+        color: #058183;
+    }
+    .title-box{
+        font-size: 1.7em;
+        font-weight: 700;
+        color: #2a3740;
+    }
+    .text-box{
+        color: #939aa3;
+        font-size: 1.1em;
+    }  
 
 // excellence service
+.process-managment{
+    height: 550px;
+    background-color: white;
+}
 
 </style>
