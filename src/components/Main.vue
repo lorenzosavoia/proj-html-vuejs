@@ -137,8 +137,184 @@
                 <div class="header-title">  Management</div>
                 <div class="text-grey mt-4">We work with innovative methodologies to ensure that the entire reformatting process is done from start to finish as planned</div>
             </div>
+            <div class="col-12 p-0">
+                <div class="container-line w-100">
+                    <div class="line w-100"></div>
+                    <div class="container-round w-100">
+                        <div class="round">1</div>
+                        <div class="round">2</div>
+                        <div class="round">3</div>
+                        <div class="round">4</div>
+                        <div class="round">5</div>
+                    </div>
+                </div>     
+            </div>
+            <div class="col-11 d-flex justify-content-center align-items-center">
+                <div class="col-2">sono il testo</div>
+                <div class="col-2">sono il testo</div>
+                <div class="col-2">sono il testo</div>
+                <div class="col-2">sono il testo</div>
+                <div class="col-2">sono il testo</div>
+            </div>
         </div>
         <!-- process managment -->
+        <!-- team of expert -->
+            <div class="row team-of-expert justify-content-center align-items-center">
+                <div class="col-8">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-8">
+                            <div class="about-text mb-4">WE LIKE WHAT WE DO</div>
+                            <h1><span class="backgorund">Team</span> of Experts</h1>
+                            <span class="about-description pe-5">enthics and integrity are the bases on wihitch our professionals bvuild their careeers. thehy are foundamentrlast theat vceoamsc dalsda asdhasd</span>
+                            <div class="row">
+                                <div class="card col-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="img-card">
+                                                <img class="w-100" src="../assets/team-1.jpg" alt="">
+                                            </div> 
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="text-card">
+                                                <h3 class="mb-1">David cooper</h3>
+                                                <span>CTO & CO-FOUNDER</span>
+                                                <div class="icon-card mt-1">
+                                                    <i class="fab fa-facebook-f me-3"></i>
+                                                    <i class="fab fa-twitter me-3"></i>
+                                                    <i class="fab fa-linkedin-in me-3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="card col-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="img-card">
+                                                <img class="w-100" src="../assets/team-2.jpg" alt="">
+                                            </div> 
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="text-card">
+                                                <h3 class="mb-1">Oliver Jones</h3>
+                                                <span>CHIEF PROCUREMENT</span>
+                                                <div class="icon-card mt-1">
+                                                    <i class="fab fa-facebook-f me-3"></i>
+                                                    <i class="fab fa-twitter me-3"></i>
+                                                    <i class="fab fa-linkedin-in me-3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="card col-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="img-card">
+                                                <img class="w-100" src="../assets/team-3.jpg" alt="">
+                                            </div> 
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="text-card">
+                                                <h3 class="mb-1">Emma Lopez</h3>
+                                                <span>CHIEF MARKETING</span>
+                                                <div class="icon-card mt-1">
+                                                    <i class="fab fa-facebook-f me-3"></i>
+                                                    <i class="fab fa-twitter me-3"></i>
+                                                    <i class="fab fa-linkedin-in me-3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="card col-5">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="img-card">
+                                                <img class="w-100" src="../assets/team-4.jpg" alt="">
+                                            </div> 
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="text-card">
+                                                <h3 class="mb-1">T.Jonhson</h3>
+                                                <span>CEO & PRESIDENT</span>
+                                                <div class="icon-card mt-1">
+                                                    <i class="fab fa-facebook-f me-3"></i>
+                                                    <i class="fab fa-twitter me-3"></i>
+                                                    <i class="fab fa-linkedin-in me-3"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 president-speech">
+                            <h2>President Speech</h2>
+                            <p>
+                                <span class="mb-3 mt-3"> possimus doloremque? Molestias excepturi quae perferendis in mollitia exercitationem deserunt molestiae rem eveniet sapiente!</span>
+                                <span class="mb-3"> doloremque? Molestias excepturi quae perferendis in mollitia exercitationem deserunt molestiae rem eveniet sapiente!</span>
+                                <span class="mb-3"> ea facere sed eum nam maxime possimus doloremque? Molestias excepturi quae perferendis in mollitia exercitationem deserunt molestiae rem eveniet sapiente!</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- team of expert -->
+        <!-- latest news -->
+        <div class="row latest-news justify-content-center align-items-center">
+            <div class="col-8 header-excellence">
+                <span class="header-green mb-3">OUR EDITORIAL CONTENT</span>
+                <div class="header-title">Latest </div>
+                <span class="background ms-2"> News</span>
+                <div class="d-flex align-items-center mt-4">
+                    <span class=" text-grey w-75">every week publish content about what is best in the buisiness world</span>
+                    <div class="w-25 d-flex justify-content-end">
+                        <button class="btn btn-primary me-3" type="submit">SEE ALL</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="row justify-content-between">
+                    <div class="col-3 img-news d-flex d-flex align-items-end">
+                        <div class="div mb-4 ms-3 text-news">
+                            increasing creativity is possible for everyone
+                        </div>
+                    </div>
+                    <div class="col-3 img-news-2 d-flex d-flex align-items-end">
+                        <div class="div mb-4 ms-3 text-news">
+                            increasing creativity is possible for everyone
+                        </div>
+                    </div>
+                    <div class="col-3 img-news-3 d-flex d-flex align-items-end">
+                        <div class="div mb-4 ms-3 text-news">
+                            increasing creativity is possible for everyone
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- latest news -->
+        <div class="row know-first justify-content-center align-items-center">
+            <div class="col-7">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="about-text mb-4">WE LIKE WHAT WE DO</div>
+                        <h1><span class="backgorund">Team</span> of Experts</h1>
+                        <span class="about-description pe-5">follow closely and receive content about our company and the news of the currente market</span>
+                    </div>
+                    <div class="col-6">
+                        <input type="email" class="form mb-4" id="" placeholder="email">
+                        <input type="text" class="form mb-4" id="" placeholder="Name">
+                        <button class="btn btn-primary me-3" type="submit">SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
   </main>
 </template>
@@ -205,6 +381,21 @@ export default {
     padding: .5em 1.4em;
     
 }
+.form{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #939aa3;
+    background-color: #ccd1d4;
+    background-clip: padding-box;
+    border: 1px solid #ccd1d4;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 .excellence-service{
     height: 850px;
     background-color: #eef4ed;
@@ -268,5 +459,167 @@ export default {
     height: 550px;
     background-color: white;
 }
+.container-line{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .line{
+        height: 5px;
+        background-color: cadetblue;
+    }
+    .container-round{
+        position: absolute;
+        display: flex;
+        .round{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: cadetblue;
+            margin-left: calc(100% / 6 - 25px);
+            font-weight: 800;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
 
+// expert
+.team-of-expert{
+    height: 650px;
+    background-color: #111117;
+    color: white;
+    
+        .about-text{
+            color: #009f93;
+            font-weight: 600;
+            font-size: .9em;
+        }
+        h1{
+            font-weight: 800;
+        }
+        .backgorund{
+            background-color:#0e272d;
+            border-radius: 5px;
+            font-weight: 800;
+            padding: .1em 0.3em;
+        }
+        span{
+            display: inline-block;   
+        }
+        .about-description{
+            color: #939aa3;   
+        }
+    
+    .card{
+        background-color: #111117;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-right: 1em;
+        .img-card{
+            width: 80px;
+            border-radius: 5px;
+            img{
+                overflow: hidden;
+                width: 80px;
+                border-radius: 5px;
+            }
+        }
+        .icon-card{
+            i{
+                color: #058182;
+                background-color: #0f2129;
+                padding: .5em;
+                border-radius: 50%;
+
+            }
+        }
+        .text-card{
+            span{
+                font-size: 0.8em;
+                color: lightgrey;
+            }
+        }
+    }
+    .president-speech{
+        background-color: #058183;
+        padding: 2em;
+        border-radius: 5px;
+        h2{
+            font-weight: 700;
+            font-size: 1.7em;
+        }
+        p span{
+            color: lightgrey;
+        }
+    }
+}
+
+.latest-news{
+    height: 650px;
+    color: white;
+    padding: 4em 0em;
+    .img-news{
+        width: 300px;
+        height: 300px;
+        background-image: url(../assets/news-1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .img-news-2{
+        width: 300px;
+        height: 300px;
+        background-image: url(../assets/news-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .img-news-3{
+        width: 300px;
+        height: 300px;
+        background-image: url(../assets/news-3.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .text-news{
+        font-weight: 700;
+        font-size: 1.4em;
+    }
+}
+
+.know-first{
+    height: 370px;
+    background-image: url(../assets/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    .about-text{
+            color: #009f93;
+            font-weight: 600;
+            font-size: .9em;
+        }
+        h1{
+            font-weight: 800;
+        }
+        .backgorund{
+            background-color:#0e272d;
+            border-radius: 5px;
+            font-weight: 800;
+            padding: .1em 0.3em;
+        }
+        span{
+            display: inline-block;   
+        }
+        .about-description{
+            color: #939aa3;   
+        }
+}
 </style>
