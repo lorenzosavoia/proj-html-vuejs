@@ -77,7 +77,7 @@
                             </div>
                             <div class="col-12 mt-2">
                                 <button class="btn btn-primary me-3" type="submit">GET IN TOUCH</button>
-                                <button type="button" class="btn btn-outline-success">Success</button>
+                                <button type="button" class="btn btn-outline-success">READ MORE</button>
                             </div>
                         </div>
                     </div>
