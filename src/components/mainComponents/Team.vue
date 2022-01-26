@@ -18,7 +18,7 @@
                                     <img class="w-100" :src="team.img" alt="">
                                 </div> 
                             </div>
-                            <div class="col-8">
+                            <div class="col-8 pe-0">
                                 <div class="text-card">
                                     <h3 class="mb-1">{{team.name}}</h3>
                                     <span>{{team.role}}</span>

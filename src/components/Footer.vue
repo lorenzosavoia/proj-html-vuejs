@@ -19,7 +19,7 @@
           <i class="fas fa-map-marker-alt me-2"></i>
           <span>Main Avenue, 987</span>
         </div>
-        <button type="button" class="btn button-2">READ MORE</button>
+        <button type="button" class="btn button-2">GET IN TOUCH</button>
       </div>
       <div 
         class="col-2 box-about flex-fill  ms-3 me-3"
@@ -31,7 +31,7 @@
           <li
             v-for="(links,index) in element.link"
             :key="index = 'a'"
-          ><i class="fas fa-chevron-right me-2"></i>{{links}}</li>
+          ><i class="fas fa-chevron-right me-2"></i><a href="">{{links}}</a></li>
         </ul>
       </div>
     </div>
@@ -126,13 +126,20 @@ export default {
 ul{
   list-style: none;
   li{
-    color: #b8b7bb;
+    
+    a{
+      text-decoration: none;
+      color: #b8b7bb;
+    }
+    a:hover{
+      color: #01a6a6;
+    }
   }
 
 }
 .main-footer{
   background-color:#111117;
-  height: 600px;
+  height: 500px;
   color: lightgrey;
   font-size: 1em;
 }

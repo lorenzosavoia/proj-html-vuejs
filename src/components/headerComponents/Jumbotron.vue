@@ -49,7 +49,7 @@
                             </div>
                             <div class="col-12 mt-2">
                                 <button class="btn button-1 me-3" type="submit">GET IN TOUCH</button>
-                                <button type="button" class="btn button-2">READ MORE</button>
+                                <button type="button" class="btn button-2-jumbo">READ MORE</button>
                             </div>
                         </div>
                     </div>
@@ -172,12 +172,12 @@ color: white !important;
     background-color:#52bbba !important;
     color: white !important;
 }
-.button-2{
+.button-2-jumbo{
 color: #1c918e !important;
 border: 1px solid #1c918e !important;
 }
 
-.button-2:hover{
+.button-2-jumbo:hover{
     background-color:#1c918e !important;
     color: white !important;
 }
