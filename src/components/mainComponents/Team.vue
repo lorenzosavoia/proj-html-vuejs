@@ -7,80 +7,21 @@
                 <h1><span class="backgorund">Team</span> of Experts</h1>
                 <span class="about-description pe-5">enthics and integrity are the bases on wihitch our professionals bvuild their careeers. thehy are foundamentrlast theat vceoamsc dalsda asdhasd</span>
                 <div class="row">
-                    <div class="card col-5">
+                    <div 
+                        class="card col-5"
+                        v-for="(team,index) in teams"
+                        :key="index + 'A'"
+                    >
                         <div class="row">
                             <div class="col-4">
                                 <div class="img-card">
-                                    <img class="w-100" src="../../assets/team-1.jpg" alt="">
+                                    <img class="w-100" :src="team.img" alt="">
                                 </div> 
                             </div>
                             <div class="col-8">
                                 <div class="text-card">
-                                    <h3 class="mb-1">David cooper</h3>
-                                    <span>CTO & CO-FOUNDER</span>
-                                    <div class="icon-card mt-1">
-                                        <i class="fab fa-facebook-f me-3"></i>
-                                        <i class="fab fa-twitter me-3"></i>
-                                        <i class="fab fa-linkedin-in me-3"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card col-5">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="img-card">
-                                    <img class="w-100" src="../../assets/team-2.jpg" alt="">
-                                </div> 
-                            </div>
-                            <div class="col-8">
-                                <div class="text-card">
-                                    <h3 class="mb-1">Oliver Jones</h3>
-                                    <span>CHIEF PROCUREMENT</span>
-                                    <div class="icon-card mt-1">
-                                        <i class="fab fa-facebook-f me-3"></i>
-                                        <i class="fab fa-twitter me-3"></i>
-                                        <i class="fab fa-linkedin-in me-3"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card col-5">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="img-card">
-                                    <img class="w-100" src="../../assets/team-3.jpg" alt="">
-                                </div> 
-                            </div>
-                            <div class="col-8">
-                                <div class="text-card">
-                                    <h3 class="mb-1">Emma Lopez</h3>
-                                    <span>CHIEF MARKETING</span>
-                                    <div class="icon-card mt-1">
-                                        <i class="fab fa-facebook-f me-3"></i>
-                                        <i class="fab fa-twitter me-3"></i>
-                                        <i class="fab fa-linkedin-in me-3"></i>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="card col-5">
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="img-card">
-                                    <img class="w-100" src="../../assets/team-4.jpg" alt="">
-                                </div> 
-                            </div>
-                            <div class="col-8">
-                                <div class="text-card">
-                                    <h3 class="mb-1">T.Jonhson</h3>
-                                    <span>CEO & PRESIDENT</span>
+                                    <h3 class="mb-1">{{team.name}}</h3>
+                                    <span>{{team.role}}</span>
                                     <div class="icon-card mt-1">
                                         <i class="fab fa-facebook-f me-3"></i>
                                         <i class="fab fa-twitter me-3"></i>
@@ -108,7 +49,33 @@
 
 <script>
 export default {
-    components:'Team'
+    components:'Team',
+    data(){
+        return{
+            teams:[
+                {
+                    name:'David Cooper',
+                    role:'CTO & CO-FOUNDER',
+                    img: require('../../assets/team-1.jpg'),
+                },
+                {
+                    name:'Oliver Jones',
+                    role:'CHIEF PROCUREMENT',
+                    img: require('../../assets/team-3.jpg'),
+                },
+                {
+                    name:'Emma Lopez',
+                    role:'CHIEF MARKETING',
+                    img: require('../../assets/team-2.jpg'),
+                },
+                {
+                    name:'T.Jonhson',
+                    role:'CEO & PRESIDENT',
+                    img: require('../../assets/team-4.jpg'),
+                },
+            ],
+        }
+    }
 }
 </script>
 

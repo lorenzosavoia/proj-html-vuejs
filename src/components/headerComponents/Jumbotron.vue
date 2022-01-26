@@ -4,15 +4,15 @@
         <div class="row nav-bar row justify-content-center align-items-center">
             <!-- navbar -->
             <div class="col-8 d-flex justify-content-between">
-                <div class="next-gen-logo"> <h1>NEXTGEN</h1></div>
+                <div class="nex-gen-logo"> 
+                    <h1><span class="">NEX</span>GEN</h1>
+                </div>
                 <div class="nav-contacts d-flex align-items-center">
                     <ul class="d-flex">
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">ABOUT</a> </li>
-                        <li><a href="">SERVICES</a> </li>
-                        <li><a href="">PROCESS</a> </li>
-                        <li><a href="">TEAM</a> </li>
-                        <li><a href="">BLOG</a> </li>
+                        <li
+                            v-for="(link, index) in links"
+                            :key="index"
+                        ><a href="">{{link}}</a></li>
                     </ul>
                     <button class="btn button-1" type="submit">GET IN TOUCH</button>
                 </div>
@@ -62,7 +62,19 @@
 
 <script>
 export default {
-    name:'Jumbotron'
+    name:'Jumbotron',
+    data() {
+        return{
+            links:[
+                'HOME',
+                'ABOUT',
+                'SERVICES',
+                'PROCESS',
+                'TEAM',
+                'BLOG',    
+            ],
+        }
+    },
 }
 </script>
 
@@ -70,6 +82,22 @@ export default {
 .jumbotron{
     background-image: url('~@/assets/bg-6.jpg');
     height: 700px;
+    .nex-gen-logo{
+        
+        h1{
+            color: #283944;
+            font-size: 1.2em;
+           font-weight: 700;
+        }
+        span{
+            display: inline-block;
+            background-color: #bfdcdd;
+            color: #07a8a8;
+            border-top-left-radius:30px;
+            border-bottom-left-radius: 30px;
+            padding:.4em .1em .4em 1.2em;
+        }
+    }
     .nav-bar{
         height: 40px;
         
@@ -84,7 +112,8 @@ export default {
                     text-decoration: none;
                     margin-right: 1em;
                     display: inline-block;
-                    color: black;
+                    color: #283944;
+                    font-weight: 500;
                 } 
             }       
         }
