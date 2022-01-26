@@ -10,7 +10,7 @@
                     <div class="col-6">
                         <input type="email" class="form mb-4" id="" placeholder="email">
                         <input type="text" class="form mb-4" id="" placeholder="Name">
-                        <button class="btn btn-primary me-3" type="submit">SUBSCRIBE</button>
+                        <button class="btn button-1 me-3" type="submit">SUBSCRIBE</button>
                     </div>
                 </div>
             </div>
@@ -66,5 +66,13 @@ export default {
     appearance: none;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.button-1{
+background-color: #1c918e !important; 
+color: white !important;
+}
+.button-1:hover{
+    background-color:#52bbba !important;
+    color: white !important;
 }
 </style>

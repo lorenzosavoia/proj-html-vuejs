@@ -10,7 +10,7 @@
                         <div class="d-flex align-items-center mt-4">
                             <span class=" text-grey w-75">we are leaders in providing consultancy services with a ser a contting-edge techologis and team of experiencerd and renowned and professional, these are some oprtion that you can hire.</span>
                             <div class="w-25 d-flex justify-content-end">
-                                <button class="btn btn-primary me-3" type="submit">SEE ALL</button>
+                                <button class="btn button-1 me-3" type="submit">SEE ALL</button>
                             </div>
                         </div>
                     </div>
@@ -152,5 +152,13 @@ export default {
     .text-box{
         color: #939aa3;
         font-size: 1.1em;
+    }
+    .button-1{
+    background-color: #1c918e !important; 
+    color: white !important;
+    }
+    .button-1:hover{
+    background-color:#52bbba !important;
+    color: white !important;
     }  
 </style>

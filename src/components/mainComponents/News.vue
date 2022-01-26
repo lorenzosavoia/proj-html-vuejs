@@ -7,7 +7,7 @@
                 <div class="d-flex align-items-center mt-4">
                     <span class=" text-grey w-75">every week publish content about what is best in the buisiness world</span>
                     <div class="w-25 d-flex justify-content-end">
-                        <button class="btn btn-primary me-3" type="submit">SEE ALL</button>
+                        <button class="btn button-1 me-3" type="submit">SEE ALL</button>
                     </div>
                 </div>
             </div>
@@ -75,6 +75,14 @@ export default {
         font-weight: 700;
         font-size: 1.4em;
     }
+}
+.button-1{
+background-color: #1c918e !important; 
+color: white !important;
+}
+.button-1:hover{
+    background-color:#52bbba !important;
+    color: white !important;
 }
 
 </style>

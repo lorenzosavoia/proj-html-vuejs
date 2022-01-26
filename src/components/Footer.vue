@@ -17,41 +17,21 @@
           <i class="fas fa-map-marker-alt me-2"></i>
           <span>Main Avenue, 987</span>
         </div>
-        <button type="button" class="btn btn-outline-success">READ MORE</button>
+        <button type="button" class="btn button-2">READ MORE</button>
       </div>
-      <div class="col-2 box-about flex-fill">
-        <h3>About</h3>
+      <div 
+        class="col-2 box-about flex-fill  ms-3 me-3"
+        v-for="(element,index) in footer"
+        :key="index"
+      >
+        <h3>{{element.title}}</h3>
         <ul class="m-0 p-0">
-          <li><i class="fas fa-chevron-right me-2"></i>The company</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Institutional</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Social & Evetens</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Innovation</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Environment</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Technology</li>
+          <li
+            v-for="(links,index) in element.link"
+            :key="index = 'a'"
+          ><i class="fas fa-chevron-right me-2"></i>{{links}}</li>
         </ul>
       </div>
-      <div class="col-2 box-about flex-fill me-5 ms-5">
-        <h3>Services</h3>
-        <ul class="m-0 p-0">
-          <li><i class="fas fa-chevron-right me-2"></i>Audit & Assurance</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Financial Advisory</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Analytics</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Middle Marketing</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Legal Consulting</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Regulatory Risk</li>
-        </ul>
-      </div>
-      <div class="col-2 box-about flex-fill">
-        <h3>Support</h3>
-        <ul class="m-0 p-0">
-          <li><i class="fas fa-chevron-right me-2"></i>Responsibility</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Terms of Use</li>
-          <li><i class="fas fa-chevron-right me-2"></i>About Cookies</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Privacy Policy</li>
-          <li><i class="fas fa-chevron-right me-2"></i>Accesibility</li>
-          <li><i class="fas fa-chevron-right me-2"></i>information</li>
-        </ul>
-      </div> 
     </div>
   </div>
   <div class="row second-footer justify-content-center align-items-center">
@@ -70,7 +50,48 @@
 
 <script>
 export default {
-    name:'Footer',
+  name:'Footer',
+  data(){
+    return{
+      footer:[
+        {
+        title:'About',
+          link:[
+              'Institutional',
+              'Social & Evetens',
+              'Innovation',
+              'Environment',
+              'Technology',
+          ],
+        },    
+        {
+        title:'Service',
+          link:[
+            'Audit & Assurance',
+            'Financial Advisory',
+            'Analytics',
+            'Middle Marketing',
+            'Legal Consulting',
+            'Regulatory Risk',
+          ],
+        },    
+        {
+        title:'Support',
+          link:[
+            'Responsibility',
+            'Terms of Use',
+            'About Cookies',
+            'Privacy Policy',
+            'Accesibility',
+            'information',
+          ],
+        }    
+      ]
+
+      
+      
+    }
+  }
     
 }
 </script>
@@ -95,5 +116,16 @@ ul{
   background-color: #19191f;
   padding: 2em 2em 2em 3em;
   border-radius: 10px;
+  height: 260px;
+}
+
+.button-2{
+  color: #1c918e;
+  border: 1px solid #1c918e;
+}
+
+.button-2:hover{
+    background-color:#1c918e;
+    color: white;
 }
 </style>
