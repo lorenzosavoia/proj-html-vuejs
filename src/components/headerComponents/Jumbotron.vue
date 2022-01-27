@@ -27,7 +27,7 @@
                         <div class="row">
                             <div class="col-12 mb-3">
                                 <div class="fusion-text">FUSION & ACQUISTION</div>
-                                <h1 class="title-form">Insurnce</h1>
+                                <h1 class="title-form">Insurance</h1>
                                 <h1 class="title-form">Consulting</h1>
                             </div>
                             <div class="col-6 d-flex align-items-center">
